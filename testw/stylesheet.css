@@ -1,0 +1,209 @@
+body {
+  background: url(images/background.png);
+  background-color: #5bbed9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;">
+}
+
+#header{
+    position: relative;
+    top: 20px;
+    background: url(images/header.png);
+    width:550px;
+    height:280px;
+}
+
+.outer_container {
+  background: url(images/middleground.png);
+  position: relative;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 550px;
+  top: 50px;
+  text-align: center;
+  background-position: center bottom;
+  margin-bottom: 100px;
+}
+
+.inner_container {
+  background: url(images/content_bg.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 570px;
+  height: 460px;
+  padding-bottom:15px;
+  display: inline-block;
+  text-align: center;
+}
+
+.video_container  {
+    position: relative;
+    width: 480px;
+    height:360px;
+    top: 45px;
+    display: inline-block;
+
+}
+
+.corner {
+    background: url(images/tak7dt.png) no-repeat top left;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    z-index: 99;
+}
+
+.topleft {
+    left: 0;
+    top: 0;
+}
+
+.topright {
+    right: 0;
+    top: 0;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.bottomright {
+    bottom: 0;
+    right: 0;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.bottomleft {
+    bottom: 0;
+    left: 0;
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.home_button {
+  background: url(images/menu_home_active.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 120px;
+  height: 50px;
+  top: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+
+
+}
+
+.home_button_inactive {
+  background: url(images/menu_home.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 120px;
+  height: 50px;
+  top: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+
+
+}
+
+
+.video_button {
+  background: url(images/menu_video.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 136px;
+  height: 50px;
+  top: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+
+
+
+}
+
+.about_button {
+  background: url(images/menu_about.png);
+  background-repeat: no-repeat;
+  position:relative;
+  width: 136px;
+  height: 50px;
+  top: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+
+
+
+}
+
+.contact_button {
+  background: url(images/menu_contact.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 156px;
+  height: 50px;
+  top: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+
+}
+
+.youtube {
+  background: url(images/footer_youtube.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 75px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  float:left;
+}
+
+.instagram {
+  background: url(images/footer_instagram.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 75px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  float:left;
+}
+
+.facebook {
+  background: url(images/footer_facebook.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 75px;
+  margin-left: 120px;
+  margin-right: 15px;
+  display: inline-block;
+  float:left;
+}
